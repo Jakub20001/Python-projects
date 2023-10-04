@@ -25,7 +25,7 @@ lchar_frame.pack(side = LEFT)
 rchar_frame = LabelFrame(frame2, text = "Hangman", width = 300, height = 200, bd = 2, relief = 'raise')
 rchar_frame.pack(side = RIGHT)
 
-# 3 frames more in lchildframes for status word and enter key
+# 3 frames more in lcharframes for status word and enter key
 l1char_frame = LabelFrame(lchar_frame, text = "status", width = 300, height = 60, relief = 'raise')
 l1char_frame.pack(side=TOP)
 l2char_frame = LabelFrame(lchar_frame, text = "word", width = 300, height = 60, relief = 'raise')
